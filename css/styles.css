@@ -826,6 +826,12 @@ html, body {
         align-items: flex-start;
         padding: 10px;
     } */
+    
+      h1, h2, h3 {
+        font-size: 20px;
+      } 
+    
+      
     .menu {
         flex-direction: row;
         justify-content: space-between;
@@ -866,8 +872,10 @@ html, body {
 
     /* Accueil */
     .home_page_content h1 {
-        font-size: 40px;
-        line-height: 50px;
+        /* font-size: 40px;
+        line-height: 50px; */
+        font-size: 32px;
+        line-height: 40px;
     }
     .image_box {
         display: none;
@@ -884,6 +892,9 @@ html, body {
     .text_boxis, .content_box, .content_boxe {
         width: 100%;
         padding: 20px;
+
+        padding: 10px;
+        font-size: 14px;
     }
 
     /* Background */
@@ -910,13 +921,16 @@ html, body {
         width: 100%;
     }
     .box, .bo {
-        width: 90%;
+        /* width: 90%; */
+        width: 95%;
         margin: 10px auto;
     }
 
     /* Footer */
     .footer-contain {
         grid-template-columns: 1fr;
+        /*....*/
+        gap: 10px;
     }
     .footer-container {
         position: relative;
