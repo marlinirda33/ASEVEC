@@ -826,10 +826,9 @@ html, body {
         align-items: flex-start;
         padding: 10px;
     } */
-    
-      h1, h2, h3 {
-        font-size: 20px;
-      } 
+    .body, .html {
+        text-align: center;
+      }
     
       
     .menu {
